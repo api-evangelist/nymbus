@@ -1,8 +1,28 @@
 aid: nymbus
 name: Nymbus
-description: Nymbus is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nymbus is a Jacksonville, Florida-based fintech software provider delivering
+  cloud-based core banking, digital banking, and account onboarding technology to
+  community banks and credit unions. Its Nymbus Connect product exposes a modern
+  RESTful API layer alongside a client- and partner-facing developer portal, a
+  secure sandbox environment, real-time Kafka event streaming (event-driven
+  architecture), and an AWS-based data lake and Redshift data warehouse for
+  reporting and analytics. Nymbus is backed by Insight Partners. The public
+  developer portal and API reference are gated to authenticated clients and
+  partners, so no public OpenAPI specification is available at this time.
 url: https://raw.githubusercontent.com/api-evangelist/nymbus/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nymbus.com/assets/images/logo.min.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +31,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Banking
+- Core Banking
+- FinTech
+- Financial Services
+- Banking as a Service
+- Digital Banking
+- APIs
+apis:
+- name: Nymbus Connect
+  description: >-
+    Nymbus Connect is the integration layer of the Nymbus platform — a modern
+    RESTful API for direct product and data access, a client/partner developer
+    portal with a secure compliant sandbox, real-time Kafka event streaming, and
+    AWS data lake / Redshift data warehouse access with reporting and analytics.
+    The developer portal and API reference are gated to authenticated clients and
+    partners.
+  humanURL: https://nymbus.com/solutions/connect/
+  tags:
+  - Banking
+  - Integration
+  - Data Streaming
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -22,4 +62,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://nymbus.com/
+  url: https://nymbus.com/
+- type: Blog
+  url: https://nymbus.com/insights/
+- type: PrivacyPolicy
+  url: https://nymbus.com/privacy-policy/
+- type: Support
+  url: https://client.nymbus.com/
+- type: DomainSecurity
+  url: security/nymbus-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
