@@ -48,7 +48,7 @@ tags:
 - Banking
 - Core Banking
 - Fintech
-- Financial-Services
+- Financial Services
 - Banking as a Service
 - Digital Banking
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Banking as a Service
 - Digital Banking
 - APIs
+- Financial-Services
 apis:
 - name: Nymbus Connect
   description: >-
