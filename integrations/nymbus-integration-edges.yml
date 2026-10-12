@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/nymbus/integrations
+- https://n8n.io/integrations/nymbus/
+- https://composio.dev/toolkits/nymbus
+- https://monid.ai/tools/nymbus
+checked:
+- https://composio.dev/toolkits/nymbus
+- https://monid.ai/tools/nymbus
+- https://n8n.io/integrations/nymbus/
+- https://zapier.com/apps/nymbus/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
